@@ -1,0 +1,11 @@
+.CreateDashboardForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--margin-bottom-primary);
+    max-width: 600px;
+}
+
+.CreateDashboardForm__marginBottom,
+.CreateDashboardForm__marginBottom.MuiTextField-root {
+    margin-bottom: var(--margin-secondary);
+}

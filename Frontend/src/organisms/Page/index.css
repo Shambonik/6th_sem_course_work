@@ -1,0 +1,10 @@
+.Page {
+    display: grid;
+    grid-template-rows: 45px 1fr;
+    height: 100vh;
+}
+
+.Page__main {
+    height: 100%;
+    overflow: hidden;
+}

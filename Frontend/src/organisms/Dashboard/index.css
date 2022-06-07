@@ -1,0 +1,10 @@
+.Dashboard {
+    display: flex;
+    height: 100%;
+}
+
+.Dashboard__column {
+    margin-right: var(--margin-column);
+    height: 100%;
+    flex-grow: 0;
+}

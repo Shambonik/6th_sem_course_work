@@ -1,0 +1,71 @@
+.DashboardLayout {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+.DashboardLayout__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.DashboardLayout__left {
+    border-right: 1px solid var(--color-divider);
+    padding: 4px 6px;
+}
+
+.DashboardLeft__subtitleWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DashboardLeft__subtitle {
+    font-size: 1.1rem;
+}
+
+.DashboardLeft__action {
+    cursor: pointer;
+}
+
+.DashboardLeft__list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.DashboardLeft__list::-webkit-scrollbar {
+    width: var(--size-scrollbar);
+  }
+
+.DashboardLeft__list::-webkit-scrollbar-thumb {
+    background-color: var(--color-thumb);
+    border-radius: 4px;
+}
+
+.DashboardLeft__list::-webkit-scrollbar-track {
+    background: var(--color-track);
+    border-radius: 4px;
+}
+
+.DashboardLayout__licstItem_active {
+    background-color: var(--color-menu-item-active);
+}
+
+.DashboardLayout__main {
+    overflow: auto;
+}
+
+.DashboardLayout__main::-webkit-scrollbar {
+    height: var(--size-scrollbar);
+    width: var(--size-scrollbar);
+}
+
+.DashboardLayout__main::-webkit-scrollbar-thumb {
+    background-color: var(--color-thumb);
+    border-radius: var(--border-radius-scrollbar);
+}
+
+.DashboardLayout__main::-webkit-scrollbar-track {
+    background: var(--color-track);
+    border-radius: var(--border-radius-scrollbar);
+}

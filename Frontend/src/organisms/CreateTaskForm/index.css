@@ -1,0 +1,11 @@
+.CreateTaskForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--margin-bottom-primary);
+    max-width: 600px;
+}
+
+.CreateTaskForm__marginBottom,
+.CreateTaskForm__marginBottom.MuiTextField-root {
+    margin-bottom: var(--margin-secondary);
+}

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.example.backend"},{"l":"com.example.backend.config"},{"l":"com.example.backend.controllers"},{"l":"com.example.backend.entities"},{"l":"com.example.backend.entities.enums"},{"l":"com.example.backend.repo"},{"l":"com.example.backend.service"}]

@@ -1,0 +1,29 @@
+.AchievementModal {
+    padding: var(--padding-primary);
+}
+
+.AchievementModal__img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: var(--margin-secondary);
+    margin-right: var(--margin-secondary);
+}
+
+.AchievementModal__name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.AchievementModal__block {
+    margin-bottom: var(--margin-primary);
+}
+
+.AchievementModal__emailInput.AchievementModal__emailInput {
+    width: 100%;
+    margin-bottom: var(--margin-secondary);
+}

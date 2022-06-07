@@ -1,0 +1,18 @@
+.CardTask {
+    background-color: var(--color-main-background);
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    margin: 4px 0;
+    padding: 4px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CardTask__isDrag {
+    position: fixed;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.CardTask__Chip {
+    margin: 0 3px 3px 0;
+}

@@ -1,0 +1,12 @@
+.Profile {
+    padding: var(--padding-primary);
+}
+
+.Profile__userinfo {
+    display: flex;
+    margin-bottom: var(--margin-primary);
+}
+
+.Profile__userinfoRight {
+    margin-left: var(--margin-primary);
+}

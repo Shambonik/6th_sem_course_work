@@ -1,0 +1,37 @@
+.ListAchievements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ItemListAchievements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 120px;
+    padding: var(--padding-secondary);
+    box-sizing: border-box;
+    margin-bottom: var(--margin-primary);
+}
+
+.ItemListAchievements__points.ItemListAchievements__points {
+    font-size: 1rem;
+    line-height: normal;
+}
+
+.ItemListAchievements__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ItemListAchievements__text {
+    text-align: center;
+}
+
+.ItemListAchievements__name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}

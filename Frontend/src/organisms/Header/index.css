@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-divider);
+    padding: 0 20px;
+}
+
+.Header__title {
+    margin: 0;
+}
+
+.Header__avatarWrap {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.Header__usesrname {
+    margin-right: var(--margin-secondary);
+}
+

@@ -1,0 +1,25 @@
+.ProjectView {
+    max-width: 600px;
+    padding: var(--padding-primary);
+}
+
+.ProjectView__info {
+    margin-bottom: var(--margin-primary);
+}
+
+.ProjectView__members {
+    margin-bottom: var(--margin-primary);
+}
+
+.ProjectView__achivementHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProjectView__addUser {
+    display: flex;
+}
+
+.ProjectView__emailInput {
+    width: 100%;
+}

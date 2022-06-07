@@ -1,0 +1,27 @@
+spring:
+  devtools.restart.enabled: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    platform: postgres
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    hikari:
+      max-lifetime: 60000
+      connection-timeout: 20000
+  jpa:
+    open-in-view: false
+    hibernate.ddl-auto: ${HIBERNATE_DDL_AUTO:update}
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${OAUTH2_CLIENT_ID}
+            client-secret: ${OAUTH2_CLIENT_SECRET}
+
+server:
+  port: ${PORT:8080}
+  compression:
+    enabled: true
+    mime-types: application/javascript,text/css,application/json,application/xml,text/html,text/xml,text/plain

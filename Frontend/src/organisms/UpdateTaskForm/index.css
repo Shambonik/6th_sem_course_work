@@ -1,0 +1,15 @@
+.UpdateTaskForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.UpdateTaskForm__marginBottom,
+.UpdateTaskForm__marginBottom.MuiTextField-root,
+.UpdateTaskForm__marginBottom.MuiFormControl-root {
+    margin-bottom: var(--margin-secondary);
+}
+
+.UpdateTaskForm__footer {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-color: var(--color-main-background);
+    color: var(--color-main-text);
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+.ignoreLinkStyle {
+    text-decoration: none;
+    color: inherit;
+}
+
+:root {
+    --color-main-background: #F9F9F9;
+    --color-main-text: #3d3d3d;
+    --color-divider: rgb(229, 229, 229);
+    --color-track: rgb(224, 224, 224);
+    --color-thumb: rgb(171, 169, 169);
+    --color-menu-item-active: rgb(186, 186, 186);
+    --color-column: rgb(242, 242, 242);
+
+    --width-column-task: 280px;
+
+    --border-radius-column: 5px;
+    --border-radius-scrollbar: 4px;
+
+    --padding-column: 4px;
+    --padding-primary: 12px;
+    --padding-secondary: 6px;
+
+    --margin-column: 4px;
+    --margin-primary: 12px;
+    --margin-secondary: 6px;
+
+    --size-scrollbar: 8px;
+}

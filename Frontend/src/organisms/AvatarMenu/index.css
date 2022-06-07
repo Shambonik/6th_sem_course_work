@@ -1,0 +1,7 @@
+.AvatarMenu__Paper {
+    min-width: 120px;
+}
+
+.AvatarMenu__Popper {
+    z-index: 1;
+}

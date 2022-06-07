@@ -1,0 +1,15 @@
+.CreateAchievementModal {
+    padding: var(--padding-primary);
+    display: flex;
+    flex-direction: column;
+}
+
+.CreateAchievementModal__error {
+    color: #d32f2f;
+}
+
+.CreateAchievementModal__marginBottom
+.CreateAchievementModal__marginBottom.MuiTextField-root,
+.CreateAchievementModal__marginBottom.MuiFormControl-root {
+    margin-bottom: var(--margin-primary);
+}

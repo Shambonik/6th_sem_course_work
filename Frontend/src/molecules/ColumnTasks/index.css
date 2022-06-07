@@ -1,0 +1,38 @@
+.ColumnTasks {
+    width: var(--width-column-task);
+    background-color: var(--color-column);
+    border-radius: var(--border-radius-column);
+    padding: var(--padding-column);
+    box-sizing: border-box;
+    max-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.ColumnTasks__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ColumnTasks__linkButton {
+    width: 100%;
+}
+
+.ColumnTasks__list {
+    overflow-y: auto;
+}
+
+.ColumnTasks__list::-webkit-scrollbar {
+    width: var(--size-scrollbar);
+}
+
+.ColumnTasks__list::-webkit-scrollbar-thumb {
+    background-color: var(--color-thumb);
+    border-radius: var(--border-radius-scrollbar);
+}
+
+.ColumnTasks__list::-webkit-scrollbar-track {
+    background: var(--color-track);
+    border-radius: var(--border-radius-scrollbar);
+}
+

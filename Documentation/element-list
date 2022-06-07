@@ -1,0 +1,7 @@
+com.example.backend
+com.example.backend.config
+com.example.backend.controllers
+com.example.backend.entities
+com.example.backend.entities.enums
+com.example.backend.repo
+com.example.backend.service

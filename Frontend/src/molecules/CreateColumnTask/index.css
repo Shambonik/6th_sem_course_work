@@ -1,0 +1,32 @@
+.CreateColumnTask {
+    width: var(--width-column-task);
+    background-color: var(--color-column);
+    border-radius: var(--border-radius-column);
+    padding: var(--padding-column);
+    box-sizing: border-box;
+}
+
+.CreateColumnTask__Input.CreateColumnTask__Input {
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.CreateColumnTask__Input.CreateColumnTask__Input input {
+    background-color: var(--color-main-background);
+}
+
+.CreateColumnTask__Input.CreateColumnTask__Input fieldset {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.CreateColumnTaskButton {
+    width: var(--width-column-task);
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.CreateColumnTask__AddIcon {
+    margin: 0 6px 0 -10px; 
+}

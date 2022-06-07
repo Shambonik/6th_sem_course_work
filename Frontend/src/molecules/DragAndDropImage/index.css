@@ -1,0 +1,53 @@
+.DragAndDropImage__wrap {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    min-height: 160px;
+    cursor: pointer;
+}
+
+.DragAndDropImage__main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+    border: 1px dashed rgb(58, 58, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.8s;
+}
+
+.DragAndDropImage__mainActive {
+    width: 100%;
+    height: 100%;
+}
+
+.DragAndDropImage__image {
+    height: 36px;
+    width: 36px;
+}
+
+.DragAndDropImage__imageDrag {
+    background-image: url('./drag.png');
+    background-size: cover;
+}
+
+.DragAndDropImage__dropImage {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.DragAndDropImage__removeImage {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+}

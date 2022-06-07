@@ -1,0 +1,26 @@
+.Task {
+    padding: var(--padding-primary);
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.Task__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Task__back {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--margin-primary);
+}
+
+.Task__left,
+.Task__left.MuiTypography-root {
+    margin-left: var(--margin-secondary);   
+}
+
+.Task__executor {
+    display: flex;
+    align-items: center;
+}
